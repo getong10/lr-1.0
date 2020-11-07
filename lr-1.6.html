@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <h3>Форма 1</h3>
+        <form>
+            <input type="text" placeholder="Фамилия" />
+            <input type="text" placeholder="Имя" />
+            <input type="text" placeholder="Отчество" />
+            <input type="submit" value="Ок!" />
+        </form>
+        
+        <h3>Форма 2</h3>
+        <form>
+            <input type="number" placeholder="Число" />
+            <p>
+                <input type="checkbox" />
+                <span>Согласны с пользовательским соглашением</span>
+            </p>
+            <input type="submit" value="Ок!" />
+        </form>
+        
+        <h3>Регистрация</h3>
+        <form>
+            <p>
+                <span>Пол: </span>
+                <input name="sex" type="radio" required />
+                <span>Мужской</span>
+                <input name="sex" type="radio" required />
+                <span>Женский</span>
+                <input name="sex" type="radio" required />
+                <span>Транс</span>
+            </p>
+            <p>Фамилия: <input type="text" required minlength="3" /></p>
+            <p>Имя: <input type="text" required minlength="3" /></p>
+            <p>Отчество: <input type="text" minlength="3" /></p>
+            <p>Возраст: <input type="number" required /></p>
+            <p>Телефон: <input type="tel" placeholder="+7 (9хх) ххх-хх-хх" required /></p>
+            <p>E-mail: <input type="email" placeholder="example@test.com" required /></p>
+            <p>
+                <span>Группа:</span>
+                <select required>
+                    <option>ЭПИ-11</option>
+                    <option>ЭИС-13</option>
+                    <option>ЭИС-14</option>
+                    <option>ЭИС-15</option>
+                    <option>ЭИС-16</option>
+                    <option>ЭИС-17</option>
+                    <option>ЭИС-18</option>
+                    <option>ЭИС-19</option>
+                    <option>МА-11</option>
+                </select>
+            </p>
+            <p>Пароль: <input type="password" required /></p>
+            <p>Повторите пароль: <input type="password" required /></p>
+            <p>
+                <input type="checkbox" required />
+                <span>Учусь платно</span>
+            </p>
+            <input type="submit" value="Зарегистрироваться" />
+        </form>
+        <div style="height: 120px"></div>
+    </body>
+</html>
